@@ -1,0 +1,45 @@
+#mainheader .navbar .logo {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-top: 2em;
+}
+#mainheader .navbar ul {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin: 1em 2em 2em 0;
+}
+
+#showcase .showcase-row {
+  display: block;
+  gap: 0;
+}
+#showcase .showcase-row .showcase-img {
+  margin-left: 0;
+}
+#showcase .showcase-row .showcase-img img {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+#showcase .showcase-row .showcase-content {
+  text-align: center;
+  margin: 0 auto;
+}
+#showcase .showcase-row .showcase-content p {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#testimonials .testimonials-row {
+  display: block;
+}
+#testimonials .testimonials-row .box {
+  text-align: center;
+}/*# sourceMappingURL=mobiel.css.map */

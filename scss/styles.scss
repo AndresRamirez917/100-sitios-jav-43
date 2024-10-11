@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack: "Poppins", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+ a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #000; 
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ form {
+
+    .form-group {
+
+        margin-bottom: 1em;
+        color: #000;
+    }
+
+    .form-control {
+
+        width: 100%;
+        display: block;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        border: 1px solid #000000;
+    }
+
+    .button-2 {
+        
+        width: 100%;
+        background: #000;
+        color: #fff;
+    }
+ }
+
+ .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+ }
+
+ .navbar ul li a:hover,
+ .navbar ul li a:active {
+color: violet;
+ }
+
+ //mainheader
+ #mainheader {
+
+    .navbar {
+
+        .logo {
+
+            float: left;
+            margin-top: 1em;
+        }
+
+        ul {
+            float: right;
+            margin-top: 2em;
+
+            li {
+                display: inline-block;
+                margin-left: 1em;
+            }
+        }
+    }
+ }
+
+ //showcase
+ #showcase {
+    
+    .showcase-row {
+        display: flex;
+        gap: 50px;
+
+        .showcase-img {
+            margin-left: 5em;
+            img {
+            
+                width: 500px;
+            }
+
+            img:hover {
+                -webkit-transform:scale(1.1);transform:scale(1.1);
+                transition: 1s;
+            }
+        }
+
+        .showcase-content {
+            width: 60%;
+            text-align: left;
+            margin-top: 6em;
+            h1 {
+                width: 90%;
+                font-size: 3.5em;
+                font-weight: lighter;
+            }
+
+            p {
+                width: 75%;
+                font-size: 1.1em;
+                line-height: 30px;
+
+            }
+
+            .button-1 {
+
+                margin-top: 1em;
+                width: 100%;
+                background: #fff;
+                border: 1px solid #000;
+                color: #000;
+            }
+
+            .button-1:hover {
+                border: 1px solid violet;
+                color: violet;
+            }
+        }
+    }
+  
+ }
+
+ //testimonials 
+ #testimonials {
+    margin-bottom: 3em;
+    h1 {
+        font-size: 2.5em;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1.2em;
+        margin: 1em 0 1em 0;
+    }
+
+    .testimonials-row {
+
+        display: flex;
+        gap: 30px;
+
+        .box {
+            padding: 50px;
+            text-align: left;
+        }
+    }
+ }
+
+ //contact
+ #contact {
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 3em;
+        margin-bottom: 2rem;
+
+    }
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+
+        .button-2 {
+            width: 100%;
+            border: none;
+        }
+
+        .button-2:hover {
+            background: rgb(87, 87, 87);
+        }
+    }
+ }
+
+
+
+ //footer
+ #footer {
+    text-align: center;
+    padding: 3em;
+ }

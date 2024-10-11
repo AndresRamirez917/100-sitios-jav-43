@@ -1,0 +1,72 @@
+#mainheader {
+
+    .navbar {
+
+        .logo {
+
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+            margin-top: 2em;
+        }
+
+        ul {
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                margin: 1em 2em 2em 0 ;
+            }
+        }
+    }
+}
+
+//showcase
+#showcase {
+
+    .showcase-row {
+        display: block;
+        gap: 0;
+
+        .showcase-img {
+            margin-left: 0;
+            
+            
+            img {
+                
+               width: 70%;
+                text-align: center;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+        .showcase-content {
+
+            text-align: center;
+            margin: 0 auto;
+           
+            p {
+                width: 100%;
+                margin-bottom: 2em;
+            }
+        }
+    }
+}
+
+//testimonials
+#testimonials {
+
+    .testimonials-row {
+        display: block;
+
+        .box {
+
+            text-align: center;
+        }
+
+    }
+}
