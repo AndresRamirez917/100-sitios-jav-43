@@ -134,6 +134,23 @@ form .button-2 {
   padding: 50px;
   text-align: left;
 }
+#testimonials .testimonials-row .box h3 {
+  margin-bottom: 2rem;
+  width: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#testimonials .testimonials-row .box img {
+  width: 50%;
+  height: 30vh;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+#testimonials .testimonials-row .box p {
+  text-align: justify;
+}
 
 #contact h2 {
   text-align: center;
